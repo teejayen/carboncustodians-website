@@ -1,0 +1,64 @@
+<!-- Contact Modal -->
+<div class="modal" id="contact-modal">
+    <div class="modal-content">
+        <button class="close-modal" id="close-contact-modal"><i class="fas fa-times"></i></button>
+        <h2>Contact Carbon Custodians</h2>
+        <form id="contact-form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="organization">Organisation</label>
+                <input type="text" id="organisation" name="organisation">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </div>
+</div>
+
+<!-- Privacy Policy Modal -->
+<div class="modal" id="privacy-modal">
+    <div class="modal-content">
+        <button class="close-modal" id="close-privacy-modal"><i class="fas fa-times"></i></button>
+        <h2>Privacy Policy</h2>
+        <p>Last updated: March 2025</p>
+        <p>At Carbon Custodians, we respect your privacy and are committed to protecting your personal information. This Privacy Policy explains how we collect, use, and safeguard your data when you visit our website or use our services.</p>
+        <!-- Add more privacy policy content as needed -->
+    </div>
+</div>
+
+<!-- Terms Modal -->
+<div class="modal" id="terms-modal">
+    <div class="modal-content">
+        <button class="close-modal" id="close-terms-modal"><i class="fas fa-times"></i></button>
+        <h2>Terms of Service</h2>
+        <p>Last updated: March 2025</p>
+        <p>By accessing or using the Carbon Custodians website, you agree to comply with and be bound by the following terms and conditions. Please review these terms carefully.</p>
+        <!-- Add more terms content as needed -->
+    </div>
+</div>
+
+<!-- FAQ Modal -->
+<div class="modal" id="faq-modal">
+    <div class="modal-content">
+        <button class="close-modal" id="close-faq-modal"><i class="fas fa-times"></i></button>
+        <h2>Frequently Asked Questions</h2>
+        <div style="margin-top: 18px;">
+            {% for faq in site.data.faqs %}
+            <div class="faq-item">
+                <h3 class="faq-question">{{ faq.question }}</h3>
+                <p class="faq-answer">{{ faq.answer }}</p>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

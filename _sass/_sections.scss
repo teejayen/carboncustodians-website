@@ -1,0 +1,251 @@
+/* Sections */
+.section {
+    padding: 90px 36px;
+    position: relative;
+    overflow: hidden;
+}
+
+.dark-section {
+    background: var(--tesla-dark);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
+.section-title {
+    font-size: 36px;
+    margin-bottom: 36px;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+}
+
+.center-title {
+    text-align: center;
+    width: 100%;
+}
+
+.section-title::after {
+    content: '';
+    position: absolute;
+    bottom: -9px;
+    left: 0;
+    width: 63px;
+    height: 3px;
+    background: var(--emerald-primary);
+}
+
+.center-title .section-title::after {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.two-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 63px;
+    align-items: center;
+    margin: 63px 0;
+}
+
+.two-column img {
+    width: 100%;
+    border-radius: 9px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.two-column img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 9px 18px rgba(0, 0, 0, 0.3);
+}
+
+.content-box h2 {
+    margin-bottom: 18px;
+    font-size: 36px;
+}
+
+.content-box p {
+    margin-bottom: 18px;
+    font-size: 18px;
+}
+
+.content-box ul {
+    margin-bottom: 18px;
+    padding-left: 18px;
+}
+
+.content-box li {
+    margin-bottom: 9px;
+    font-size: 18px;
+}
+
+/* Quote Block */
+.quote-block {
+    background: var(--carbon-gray);
+    border-left: 6px solid var(--emerald-primary);
+    padding: 27px;
+    border-radius: 0 9px 9px 0;
+    margin: 36px 0;
+}
+
+.quote-block blockquote {
+    font-size: 21px;
+    font-style: italic;
+    line-height: 1.5;
+    margin-bottom: 9px;
+}
+
+.quote-block cite {
+    font-size: 16px;
+    opacity: 0.8;
+    font-style: normal;
+    display: block;
+    text-align: right;
+}
+
+/* Tesla-inspired pattern */
+.tesla-pattern {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: 
+        linear-gradient(0deg, var(--carbon-black) 9px, transparent 9px),
+        linear-gradient(90deg, var(--carbon-black) 9px, transparent 9px);
+    background-size: 90px 90px;
+    opacity: 0.03;
+    z-index: 1;
+}
+
+/* Stats Container */
+.stats-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 36px 0;
+}
+
+.stat-item {
+    text-align: center;
+    padding: 18px;
+    flex: 1 1 200px;
+    max-width: 250px;
+    transition: transform 0.3s ease;
+}
+
+.stat-item:hover {
+    transform: translateY(-3px);
+}
+
+.stat-item h3 {
+    font-size: 48px;
+    color: var(--emerald-primary);
+    margin-bottom: 9px;
+}
+
+.stat-item p {
+    font-size: 18px;
+}
+
+/* Waste Categories */
+.waste-categories {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 27px;
+    margin: 36px 0;
+}
+
+.waste-category {
+    background: var(--carbon-gray);
+    padding: 27px;
+    border-radius: 9px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.waste-category:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 9px 18px rgba(0, 0, 0, 0.2);
+}
+
+.waste-category i {
+    font-size: 36px;
+    color: var(--emerald-primary);
+    margin-bottom: 18px;
+    display: block;
+}
+
+.waste-category h3 {
+    font-size: 24px;
+    margin-bottom: 9px;
+}
+
+.waste-category p {
+    font-size: 16px;
+}
+
+/* SDG Grid */
+.sdg-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* 6 SDG icons in a row by default */
+    gap: 18px;
+    margin-top: 36px;
+}
+
+.sdg-item {
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.sdg-item:hover {
+    transform: translateY(-3px);
+}
+
+.sdg-item img {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+    margin-bottom: 9px;
+    border-radius: 9px;
+}
+
+.sdg-item p {
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+/* Responsive adjustments for SDG grid */
+@media (max-width: 1200px) {
+    .sdg-grid {
+        grid-template-columns: repeat(3, 1fr); /* 3 SDGs per row on larger screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .sdg-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 SDGs per row on medium screens */
+    }
+    
+    .sdg-item img {
+        width: 75px;
+        height: 75px;
+    }
+}
+
+@media (max-width: 480px) {
+    .sdg-grid {
+        grid-template-columns: 1fr; /* 1 SDG per row on small screens */
+        max-width: 240px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .sdg-item img {
+        width: 90px;
+        height: 90px;
+    }
+}

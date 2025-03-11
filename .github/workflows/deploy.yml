@@ -1,4 +1,4 @@
-name: Deploy to S3 and CloudFront
+name: Build and Deploy Jekyll Site
 
 on:
   push:
@@ -7,13 +7,22 @@ on:
   workflow_dispatch:
 
 jobs:
-  deploy:
+  build_and_deploy:
     runs-on: ubuntu-latest
-    
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-        
+      - uses: actions/checkout@v3
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+          bundler-cache: true
+      
+      - name: Install dependencies & build site
+        run: |
+          bundle install
+          bundle exec jekyll build
+      
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v2
         with:
@@ -23,7 +32,7 @@ jobs:
           
       - name: Deploy to S3
         run: |
-          aws s3 sync src/ s3://${{ secrets.S3_BUCKET }}/ --delete
+          aws s3 sync _site/ s3://${{ secrets.S3_BUCKET }}/ --delete
           
       - name: Invalidate CloudFront cache
         run: |

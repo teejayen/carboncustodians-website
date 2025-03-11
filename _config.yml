@@ -1,0 +1,25 @@
+title: Carbon Custodians
+email: legacy@carboncustodians.au
+description: Transforming Today's Waste into Tomorrow's Legacy
+baseurl: ""
+url: ""
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+collections:
+  sections:
+    output: false
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
