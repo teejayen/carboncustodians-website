@@ -19,6 +19,32 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
+    // Dropdown menu handling for mobile
+    const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+    
+    if (window.innerWidth <= 768) {
+        dropdownToggles.forEach(toggle => {
+            toggle.addEventListener('click', function(e) {
+                e.preventDefault();
+                const menu = this.nextElementSibling;
+                menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+            });
+        });
+    }
+    
+    // Fix anchor links for sections on the homepage when on other pages
+    const links = document.querySelectorAll('a[href^="#"]');
+    links.forEach(link => {
+        if (window.location.pathname !== '/' && window.location.pathname !== '/index.html') {
+            if (link.getAttribute('href').startsWith('#') && link.getAttribute('href') !== '#contact-modal' && 
+                link.getAttribute('href') !== '#privacy-modal' && 
+                link.getAttribute('href') !== '#terms-modal' && 
+                link.getAttribute('href') !== '#faq-modal') {
+                link.setAttribute('href', '/index.html' + link.getAttribute('href'));
+            }
+        }
+    });
+
     // Modal functionality
     const setupModal = function(triggerSelector, modalId, closeId) {
         const triggers = document.querySelectorAll(triggerSelector);

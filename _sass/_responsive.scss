@@ -167,4 +167,51 @@
         display: block;
         width: 100%;
     }
+    @media (max-width: 768px) {
+        .nav-links {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background: var(--tesla-dark);
+            flex-direction: column;
+            gap: 9px;
+            padding: 18px 36px;
+            box-shadow: 0 9px 18px rgba(0, 0, 0, 0.3);
+        }
+        
+        .nav-links.active {
+            display: flex;
+        }
+        
+        .dropdown {
+            width: 100%;
+        }
+        
+        .dropdown-toggle {
+            justify-content: space-between;
+            width: 100%;
+        }
+        
+        .dropdown-menu {
+            position: static;
+            width: 100%;
+            opacity: 1;
+            visibility: visible;
+            transform: none;
+            display: none;
+            box-shadow: none;
+            padding: 0;
+            margin-top: 9px;
+        }
+        
+        .dropdown-menu.active {
+            display: block;
+        }
+        
+        .dropdown-menu a {
+            padding-left: 27px;
+        }
+    }
 }

@@ -11,7 +11,20 @@
 <body>
     {% include header.html %}
     
+    {% unless page.url == "/" %}
+    <!-- Page content wrapper for non-homepage pages -->
+    <div class="page-content">
+        <div class="section">
+            <div class="tesla-pattern"></div>
+            <div class="container">
+                {{ content }}
+            </div>
+        </div>
+    </div>
+    {% else %}
+    <!-- Homepage content -->
     {{ content }}
+    {% endunless %}
     
     {% include footer.html %}
     {% include modals.html %}

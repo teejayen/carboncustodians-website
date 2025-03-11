@@ -249,3 +249,40 @@
         height: 90px;
     }
 }
+
+/* Page Content Styling */
+.page-content {
+    padding-top: 90px; /* Account for fixed header */
+}
+
+.page-content .section {
+    padding-top: 63px;
+}
+
+.page-content h1 {
+    font-size: 42px;
+    margin-bottom: 36px;
+    position: relative;
+    display: inline-block;
+}
+
+.page-content h1:after {
+    content: '';
+    position: absolute;
+    bottom: -9px;
+    left: 0;
+    width: 90px;
+    height: 3px;
+    background: var(--emerald-primary);
+}
+
+.page-content img {
+    border-radius: 9px;
+    max-width: 100%;
+    height: auto;
+}
+
+.page-content .hero-banner {
+    margin-top: -36px;
+    margin-bottom: 36px;
+}

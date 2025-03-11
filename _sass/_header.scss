@@ -66,3 +66,60 @@ header.scrolled {
     font-size: 24px;
     cursor: pointer;
 }
+
+/* Dropdown Menu - Improved Styling */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+}
+
+.dropdown-toggle i {
+    font-size: 12px;
+    transition: transform 0.3s ease;
+}
+
+.dropdown:hover .dropdown-toggle i {
+    transform: rotate(180deg);
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: var(--tesla-dark);
+    min-width: 220px;
+    padding: 12px 0;
+    border-radius: 9px;
+    box-shadow: 0 9px 18px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: all 0.3s ease;
+    z-index: 100;
+    margin-top: 9px;
+}
+
+.dropdown:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 9px 18px;
+    text-align: left;
+    font-size: 16px;
+    white-space: nowrap;
+}
+
+.dropdown-menu a:hover {
+    background: rgba(6, 150, 105, 0.1);
+}
