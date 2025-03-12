@@ -188,30 +188,38 @@ permalink: /about/industry-5-0/
       Our approach aligns with Industry 5.0's 6R methodology for systematic waste prevention, going beyond the traditional 3R approach (Reduce, Reuse, Recycle) to include three preliminary steps that prevent waste creation:
     </p>
     
-    <!-- 3x2 grid for 6R Methodology -->
-    <div class="methodology-grid">
-      <div class="methodology-item">
-        <h4>Recognize</h4>
+    <!-- First row: 3 items -->
+    <div class="methodology-row" style="display: flex; justify-content: space-between; margin-bottom: 36px;">
+      <div class="methodology-item" style="width: 30%; background: var(--carbon-gray); padding: 27px; border-radius: 9px; text-align: center;">
+        <h4 style="color: var(--emerald-primary);">Recognize</h4>
         <p>Identifying waste streams with transformation potential</p>
       </div>
-      <div class="methodology-item">
-        <h4>Reconsider</h4>
+      
+      <div class="methodology-item" style="width: 30%; background: var(--carbon-gray); padding: 27px; border-radius: 9px; text-align: center;">
+        <h4 style="color: var(--emerald-primary);">Reconsider</h4>
         <p>Rethinking our approach to materials and processes</p>
       </div>
-      <div class="methodology-item">
-        <h4>Realize</h4>
+      
+      <div class="methodology-item" style="width: 30%; background: var(--carbon-gray); padding: 27px; border-radius: 9px; text-align: center;">
+        <h4 style="color: var(--emerald-primary);">Realize</h4>
         <p>Implementing alternative solutions to prevent waste</p>
       </div>
-      <div class="methodology-item">
-        <h4>Reduce</h4>
+    </div>
+    
+    <!-- Second row: 3 items -->
+    <div class="methodology-row" style="display: flex; justify-content: space-between; margin-bottom: 36px;">
+      <div class="methodology-item" style="width: 30%; background: var(--carbon-gray); padding: 27px; border-radius: 9px; text-align: center;">
+        <h4 style="color: var(--emerald-primary);">Reduce</h4>
         <p>Minimizing waste volume through efficient pyrolysis</p>
       </div>
-      <div class="methodology-item">
-        <h4>Reuse</h4>
+      
+      <div class="methodology-item" style="width: 30%; background: var(--carbon-gray); padding: 27px; border-radius: 9px; text-align: center;">
+        <h4 style="color: var(--emerald-primary);">Reuse</h4>
         <p>Creating long-lasting carbon products from waste materials</p>
       </div>
-      <div class="methodology-item">
-        <h4>Recycle</h4>
+      
+      <div class="methodology-item" style="width: 30%; background: var(--carbon-gray); padding: 27px; border-radius: 9px; text-align: center;">
+        <h4 style="color: var(--emerald-primary);">Recycle</h4>
         <p>Converting carbon back into valuable soil amendments</p>
       </div>
     </div>
