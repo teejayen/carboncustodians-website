@@ -109,7 +109,7 @@ permalink: /industries/agricultural/
       </div>
       <div class="content-box">
         <h2>Farm-Based Carbon Transformation</h2>
-        <p>Our containerized pyrolysis technology enables on-farm conversion of agricultural waste into valuable biochar and energy:</p>
+        <p>Our containerised pyrolysis technology enables on-farm conversion of agricultural waste into valuable biochar and energy:</p>
         <ul>
           <li>Process crop residues that would otherwise be burned or left to decompose</li>
           <li>Transform orchard and vineyard prunings into soil amendments</li>
@@ -123,7 +123,7 @@ permalink: /industries/agricultural/
     </div>
     
     <div class="research-highlight">
-      <h3>Research Highlight: Biochar Agricultural Benefits</h3>
+      <h3>Potential Agricultural Benefits</h3>
       <p>Comprehensive research from the University of Melbourne's Agricultural Science Department demonstrated that properly produced biochar can provide multiple benefits:</p>
       <ul>
         <li>Increased water holding capacity by 16-40% in sandy soils</li>
@@ -261,14 +261,12 @@ permalink: /industries/agricultural/
     
     <div class="two-column">
       <div class="content-box">
-        <h2>Customized Agricultural Solutions</h2>
+        <h2>Customised Agricultural Solutions</h2>
         <p>Our agricultural biochar systems can be deployed through multiple models to meet diverse farm needs:</p>
         <ul>
-          <li><strong>Mobile Processing:</strong> Scheduled visits from our containerized units to process accumulated agricultural waste</li>
+          <li><strong>Mobile Processing:</strong> Scheduled visits from our containerised units to process accumulated agricultural waste</li>
           <li><strong>Cooperative Deployment:</strong> Shared systems serving multiple farms within a region</li>
           <li><strong>On-Farm Installation:</strong> Dedicated units for larger operations with consistent biomass streams</li>
-          <li><strong>Biochar Supply:</strong> Direct purchase of biochar for farms without sufficient waste streams</li>
-          <li><strong>Custom Formulations:</strong> Specialized biochar blends optimized for specific crops or soil types</li>
         </ul>
         <p>All implementation options include comprehensive support for carbon credit generation and verification, creating additional revenue streams for farmers adopting this technology.</p>
       </div>

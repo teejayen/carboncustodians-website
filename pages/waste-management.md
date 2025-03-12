@@ -4,195 +4,256 @@ title: Waste Management Solutions - Transforming Problem Materials into Resource
 permalink: /industries/waste-management/
 ---
 
-# Advanced Waste Transformation Solutions
-
-<div class="hero-banner">
+<section class="hero-banner">
   <img src="/assets/images/waste-transformation.jpg" alt="Waste Transformation Process">
   <div class="overlay-text">
     <h2>Beyond Disposal: Creating Value from Waste</h2>
   </div>
-</div>
+</section>
 
-## Transforming Waste Management Challenges
-
-Modern waste management faces unprecedented challenges: increasing volumes, complex waste streams, rising disposal costs, and stricter environmental regulations. Our containerized pyrolysis technology provides an innovative solution that transforms these challenges into opportunities.
-
-<div class="quote-block">
-  <blockquote>
-    "Pyrolysis represents one of the most promising technologies for diverting problematic waste streams from landfill while simultaneously creating valuable resources and sequestering carbon."
-  </blockquote>
-  <cite>— Journal of Waste Management & Research, 2023</cite>
-</div>
-
-## Versatile Processing Capability
-
-<div class="two-column">
-  <div>
-    <h3>Multiple Waste Streams</h3>
-    <p>Our technology effectively processes a wide range of waste materials including:</p>
-    <ul>
-      <li>Green waste and vegetation</li>
-      <li>Agricultural residues</li>
-      <li>Forestry byproducts</li>
-      <li>Food processing waste</li>
-      <li>Treated timber (CCA, ACQ, creosote)</li>
-      <li>Biosolids and sewage sludge</li>
-      <li>Industrial organics</li>
-      <li>Contaminated biomass</li>
-    </ul>
+<section class="section">
+  <div class="tesla-pattern"></div>
+  <div class="container">
+    <div class="center-title">
+      <h2 class="section-title">Transforming Waste Management Challenges</h2>
+    </div>
+    <p style="text-align: center; max-width: 800px; margin: 0 auto 36px; font-size: 18px;">
+      Modern waste management faces unprecedented challenges: increasing volumes, complex waste streams, rising disposal costs, and stricter environmental regulations. Our containerized pyrolysis technology is designed to provide an innovative solution that can transform these challenges into opportunities.
+    </p>
+    
+    <div class="two-column">
+      <div class="content-box">
+        <h2>The Waste Challenge</h2>
+        <p>Australia's waste management sector continues to face increasing pressure from regulatory changes, public expectations, and economic challenges. With landfill levies rising and increasing restrictions on what materials can be disposed of, new solutions are urgently needed.</p>
+        <p>Certain waste streams like treated timber present particular difficulties, with limited recycling options and potential environmental impacts from conventional disposal methods.</p>
+        <p>Our pyrolysis technology aims to address these challenges by transforming problematic waste streams into valuable resources while potentially creating significant carbon benefits.</p>
+      </div>
+      <div>
+        <img src="/api/placeholder/600/400" alt="Waste management challenges">
+      </div>
+    </div>
+    
+    <div class="stats-container">
+      <div class="stat-item">
+        <h3>67M</h3>
+        <p>tonnes of waste generated annually in Australia</p>
+      </div>
+      <div class="stat-item">
+        <h3>45%</h3>
+        <p>average landfill diversion rate nationally</p>
+      </div>
+      <div class="stat-item">
+        <h3>$150+</h3>
+        <p>per tonne typical landfill levy in major states</p>
+      </div>
+      <div class="stat-item">
+        <h3>3.67t</h3>
+        <p>potential CO₂ equivalent per tonne of biochar</p>
+      </div>
+    </div>
   </div>
-  <div>
-    <img src="/assets/images/multiple-waste-streams.jpg" alt="Various Waste Streams">
+</section>
+
+<section class="section dark-section">
+  <div class="tesla-pattern"></div>
+  <div class="container">
+    <div class="center-title">
+      <h2 class="section-title">Versatile Processing Capability</h2>
+    </div>
+    
+    <div class="feature-grid">
+      <div class="feature-item">
+        <i class="fas fa-leaf"></i>
+        <h4>Green Waste</h4>
+        <p>Our technology is designed to process landscaping debris, branch trimmings, and other organic materials that typically consume significant landfill space.</p>
+      </div>
+      <div class="feature-item">
+        <i class="fas fa-tree"></i>
+        <h4>Forestry Byproducts</h4>
+        <p>Sawmill residues, bark, and wood chips can be transformed into valuable biochar products rather than left to decompose.</p>
+      </div>
+      <div class="feature-item">
+        <i class="fas fa-building"></i>
+        <h4>Construction Timber</h4>
+        <p>End-of-life timber including treated materials that present disposal challenges can potentially be processed into safe carbon products.</p>
+      </div>
+      <div class="feature-item">
+        <i class="fas fa-industry"></i>
+        <h4>Industrial Organics</h4>
+        <p>Process specific organic waste streams from manufacturing and food processing that would otherwise require specialized disposal.</p>
+      </div>
+      <div class="feature-item">
+        <i class="fas fa-water"></i>
+        <h4>High Moisture Content</h4>
+        <p>Our system is being designed to handle materials with significant moisture content without extensive pre-drying requirements.</p>
+      </div>
+      <div class="feature-item">
+        <i class="fas fa-seedling"></i>
+        <h4>Contaminated Biomass</h4>
+        <p>Certain contaminated organic materials may be safely processed through our high-temperature approach.</p>
+      </div>
+    </div>
   </div>
-</div>
+</section>
 
-## Specialized Solutions for Problem Materials
-
-### Treated Timber Processing
-
-Our technology addresses one of the waste industry's most challenging materials: treated timber. Research published in the *Journal of Hazardous Materials* demonstrates that our high-temperature pyrolysis approach:
-
-- Effectively immobilizes up to 98% of copper, chromium, and arsenic from CCA-treated timber
-- Destroys organic preservatives including creosote, pentachlorophenol, and ACQ
-- Converts hazardous waste into a safe, valuable carbon product
-- Eliminates leaching risks associated with landfill disposal
-- Creates a solution for an estimated 5 million tonnes of treated timber waste produced annually in Australia
-
-<div class="feature-grid">
-  <div class="feature-item">
-    <i class="icon icon-hazard"></i>
-    <h4>Hazard Immobilization</h4>
-    <p>Our process temperatures above 650°C effectively lock heavy metals into stable, non-leachable forms.</p>
+<section class="section">
+  <div class="tesla-pattern"></div>
+  <div class="container">
+    <div class="center-title">
+      <h2 class="section-title">Specialized Solutions for Problem Materials</h2>
+    </div>
+    
+    <div class="two-column">
+      <div>
+        <img src="/api/placeholder/600/400" alt="Treated timber processing">
+      </div>
+      <div class="content-box">
+        <h2>Treated Timber Processing Potential</h2>
+        <p>One of the waste industry's most challenging materials is treated timber. Research indicates that high-temperature pyrolysis may offer a solution to this persistent challenge:</p>
+        <ul>
+          <li>Laboratory testing suggests potential to immobilize heavy metals from CCA-treated timber</li>
+          <li>The process is designed to transform organic preservatives including creosote and ACQ</li>
+          <li>High-temperature processing may convert hazardous waste into more stable carbon forms</li>
+          <li>This approach could address a significant portion of the estimated 5 million tonnes of treated timber waste produced annually in Australia</li>
+        </ul>
+        <p>Source: <a href="https://doi.org/10.1016/j.jhazmat.2013.01.073" target="_blank" rel="noopener noreferrer">CSIRO Land and Water research published in Journal of Hazardous Materials, 2013</a></p>
+      </div>
+    </div>
+    
+    <div class="research-highlight">
+      <h3>Research Spotlight: Pyrolysis for Waste Transformation</h3>
+      <p>Research from Australian institutions suggests pyrolysis technology could provide significant benefits for waste management operations:</p>
+      <ul>
+        <li>Potential for 50-80% volume reduction of organic waste materials</li>
+        <li>Laboratory tests indicate possible heavy metal immobilization in treated timber</li>
+        <li>The process can transform waste carbon into forms that resist breakdown for hundreds of years</li>
+        <li>Byproducts including heat energy and wood vinegar offer additional value streams</li>
+      </ul>
+      <p class="disclaimer" style="font-size: 14px; font-style: italic;">Note: These findings represent general research in the field and specific performance would depend on implementation details and feedstock characteristics.</p>
+    </div>
   </div>
-  <div class="feature-item">
-    <i class="icon icon-epa"></i>
-    <h4>Regulatory Compliance</h4>
-    <p>Final products meet EPA leachability standards, converting a hazardous waste into a safe resource.</p>
+</section>
+
+<section class="section dark-section">
+  <div class="tesla-pattern"></div>
+  <div class="container">
+    <div class="center-title">
+      <h2 class="section-title">Comprehensive Benefits for Waste Operations</h2>
+    </div>
+    
+    <div class="process-flow">
+      <div class="process-step">
+        <div class="process-icon">
+          <i class="fas fa-trash-alt"></i>
+        </div>
+        <div>
+          <h3>Waste Diversion</h3>
+          <p>Reduce landfill inputs and associated costs</p>
+        </div>
+      </div>
+      <div class="process-step">
+        <div class="process-icon">
+          <i class="fas fa-recycle"></i>
+        </div>
+        <div>
+          <h3>Resource Creation</h3>
+          <p>Transform waste into valuable products</p>
+        </div>
+      </div>
+      <div class="process-step">
+        <div class="process-icon">
+          <i class="fas fa-leaf"></i>
+        </div>
+        <div>
+          <h3>Carbon Benefits</h3>
+          <p>Potential for carbon credit generation</p>
+        </div>
+      </div>
+      <div class="process-step">
+        <div class="process-icon">
+          <i class="fas fa-truck"></i>
+        </div>
+        <div>
+          <h3>Mobile Processing</h3>
+          <p>On-site transformation capability</p>
+        </div>
+      </div>
+      <div class="process-step">
+        <div class="process-icon">
+          <i class="fas fa-chart-line"></i>
+        </div>
+        <div>
+          <h3>New Revenue</h3>
+          <p>Create additional income streams</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="quote-block">
+      <blockquote>
+        "Pyrolysis represents one of the most promising technologies for diverting problematic waste streams from landfill while simultaneously creating valuable resources and sequestering carbon."
+      </blockquote>
+      <cite>— Journal of Waste Management & Research</cite>
+    </div>
   </div>
-  <div class="feature-item">
-    <i class="icon icon-applications"></i>
-    <h4>Safe Applications</h4>
-    <p>Processed materials can be safely used in construction materials, road base, and industrial applications.</p>
+</section>
+
+<section class="section">
+  <div class="tesla-pattern"></div>
+  <div class="container">
+    <div class="center-title">
+      <h2 class="section-title">Potential Industry Applications</h2>
+    </div>
+    
+    <div class="case-study">
+      <h3>Theoretical Application: Regional Waste Management</h3>
+      <p>Based on technical specifications and research data, a regional waste authority implementing our system might potentially achieve:</p>
+      <ul>
+        <li>Significant reduction in landfill inputs from green waste and timber streams</li>
+        <li>Potential savings in landfill costs based on current tipping fees and waste levies</li>
+        <li>Possible generation of carbon removal certificates through verified carbon methodologies</li>
+        <li>Processing capability for materials that currently have limited recycling options</li>
+        <li>Opportunity to develop local markets for biochar products</li>
+      </ul>
+      <p><em>Note: This represents a projected scenario based on system design specifications. Actual results would depend on specific conditions and implementation details.</em></p>
+    </div>
+    
+    <div class="industry-grid">
+      <div class="industry-item">
+        <img src="/api/placeholder/270/180" alt="Transfer Stations">
+        <h4>Transfer Stations</h4>
+        <p>Process bulky green waste and timber on-site, potentially reducing transportation costs and creating additional value streams.</p>
+      </div>
+      <div class="industry-item">
+        <img src="/api/placeholder/270/180" alt="Landfills">
+        <h4>Landfills</h4>
+        <p>Divert organic materials, potentially extending landfill lifespan while creating marketable products and possible carbon benefits.</p>
+      </div>
+      <div class="industry-item">
+        <img src="/api/placeholder/270/180" alt="Council Operations">
+        <h4>Council Operations</h4>
+        <p>Create potential closed-loop systems for municipal green waste, producing biochar for council parks and gardens.</p>
+      </div>
+      <div class="industry-item">
+        <img src="/api/placeholder/270/180" alt="Timber Recyclers">
+        <h4>Timber Recyclers</h4>
+        <p>Add potential value to waste timber streams, including treated materials that cannot be processed through conventional methods.</p>
+      </div>
+    </div>
+    
+    <p class="disclaimer" style="text-align: center; font-style: italic; margin-top: 36px;">
+      Note: These applications represent potential use cases based on our technology's design specifications. Implementation frameworks are in development.
+    </p>
   </div>
-  <div class="feature-item">
-    <i class="icon icon-testing"></i>
-    <h4>Verified Results</h4>
-    <p>Rigorous laboratory testing confirms the effectiveness and safety of our treated timber processing system.</p>
+</section>
+
+<section class="section carbon-credit-section">
+  <div class="tesla-pattern"></div>
+  <div class="container">
+    <div class="carbon-credit-content">
+      <h2 class="section-title">Transform Waste Management Operations</h2>
+      <p>Discover how our pyrolysis technology is being designed to create environmental and economic value from waste streams.</p>
+      <a href="#contact-modal" class="btn" id="contact-btn-waste">Contact Our Waste Solutions Team</a>
+    </div>
   </div>
-</div>
-
-## Comprehensive Benefits for Waste Management Operations
-
-Our containerized pyrolysis system offers waste management companies, councils, and recyclers multiple advantages:
-
-<div class="stats-container">
-  <div class="stat-item">
-    <h3>50-80%</h3>
-    <p>reduction in waste volume</p>
-  </div>
-  <div class="stat-item">
-    <h3>5 tonnes</h3>
-    <p>processing capacity per hour</p>
-  </div>
-  <div class="stat-item">
-    <h3>3.67 tonnes</h3>
-    <p>CO₂ sequestered per tonne of biochar</p>
-  </div>
-  <div class="stat-item">
-    <h3>24/7</h3>
-    <p>operational capability</p>
-  </div>
-</div>
-
-### Operational Advantages
-
-- **Mobile Deployment**: Containerized units can be placed at transfer stations, landfills, or material recovery facilities
-- **Modular Scaling**: Start with a single unit and add capacity as needed
-- **Self-Sustaining Operation**: After startup, requires no external energy inputs
-- **High Moisture Tolerance**: Process wet materials without extensive pre-drying
-- **Minimal Footprint**: Each unit requires just 12m x 24m of space
-- **Rapid Processing**: Transform waste into valuable products in under 40 minutes
-- **Multiple Revenue Streams**: Generate income from carbon credits, biochar products, and tipping fees
-
-## Implementation Strategies
-
-<div class="timeline">
-  <div class="timeline-item">
-    <h4>Assessment & Planning</h4>
-    <p>Analyze waste streams, volumes, and integration with existing systems to develop optimal deployment strategy.</p>
-  </div>
-  <div class="timeline-item">
-    <h4>Site Preparation & Deployment</h4>
-    <p>Install containerized units with minimal site preparation and infrastructure requirements.</p>
-  </div>
-  <div class="timeline-item">
-    <h4>Integration & Training</h4>
-    <p>Train existing staff on operation and integrate with current waste management processes.</p>
-  </div>
-  <div class="timeline-item">
-    <h4>Product Development</h4>
-    <p>Customize output products based on local market needs and applications.</p>
-  </div>
-  <div class="timeline-item">
-    <h4>Carbon Credit Generation</h4>
-    <p>Establish protocols for measuring, reporting, and verifying carbon sequestration.</p>
-  </div>
-</div>
-
-## Research-Backed Results
-
-The following research provides the scientific foundation for our approach to waste transformation:
-
-1. Thompson, K.L., et al. (2023). "Pyrolysis of treated timber waste: Heavy metal immobilization and safe end-product development." *Journal of Hazardous Materials*, 442, 130789.
-
-2. Williams, J.R., & Chen, S. (2022). "Comparison of waste volume reduction technologies: Economic and environmental analysis." *Waste Management*, 146, 256-267.
-
-3. Roberts, M.S., et al. (2024). "Carbon credit generation from biochar production using mixed waste feedstocks." *Environmental Science & Technology*, 58(3), 1542-1553.
-
-4. Henderson, P., & Watson, R. (2023). "Mobile pyrolysis systems for distributed waste management: Case studies from Australia." *Journal of Cleaner Production*, 390, 136224.
-
-<div class="case-study">
-  <h3>Potential Scenario: Regional Waste Management</h3>
-  <p>Based on technical specifications and research data, a regional waste authority implementing our system could potentially achieve:</p>
-  <ul>
-    <li>Significant reduction in landfill inputs from green waste and timber streams</li>
-    <li>Substantial savings in landfill costs based on current tipping fees, and waste levies</li>
-    <li>Potential generation of carbon credits through verified carbon removal</li>
-    <li>Processing capability for treated timber that currently has limited recycling options</li>
-    <li>Opportunity to develop local markets for biochar products</li>
-    <li>Theoretical return on investment within 2-4 years depending on scale and local factors</li>
-  </ul>
-  <p>Note: This represents a projected scenario based on system specifications and has not yet been implemented at full scale. Actual results may vary based on specific conditions and implementation details.</p>
-</div>
-
-## Industry Applications
-
-<div class="industry-grid">
-  <div class="industry-item">
-    <img src="/assets/images/waste-transfer.jpg" alt="Waste Transfer Station">
-    <h4>Transfer Stations</h4>
-    <p>Process bulky green waste and timber on-site, reducing transportation costs and creating additional revenue streams.</p>
-  </div>
-  <div class="industry-item">
-    <img src="/assets/images/landfill.jpg" alt="Landfill Operation">
-    <h4>Landfills</h4>
-    <p>Divert organic materials, extending landfill lifespan while generating carbon credits and marketable products.</p>
-  </div>
-  <div class="industry-item">
-    <img src="/assets/images/council-waste.jpg" alt="Council Waste Management">
-    <h4>Council Operations</h4>
-    <p>Create a closed-loop system for municipal green waste, producing biochar for council parks and gardens.</p>
-  </div>
-  <div class="industry-item">
-    <img src="/assets/images/timber-recycling.jpg" alt="Timber Recycling">
-    <h4>Timber Recyclers</h4>
-    <p>Add value to waste timber streams, including treated materials that cannot be processed through conventional methods.</p>
-  </div>
-</div>
-
-<div class="cta-container">
-  <h3>Ready to transform your waste management operations?</h3>
-  <p>Discover how our pyrolysis technology creates environmental and economic value from waste.</p>
-  <a href="/contact" class="btn primary-btn">Schedule a Consultation</a>
-  <a href="/calculator" class="btn secondary-btn">Calculate Your Processing Potential</a>
-</div>
+</section>

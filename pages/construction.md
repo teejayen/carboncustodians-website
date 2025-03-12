@@ -108,7 +108,7 @@ permalink: /industries/construction/
       </div>
       <div class="content-box">
         <h2>The Ultimate Carbon-Negative Building Material</h2>
-        <p>Our biochar-enhanced hempcrete represents a revolutionary leap forward in sustainable construction materials. By combining industrial hemp, lime, and our specialized biochar, we've created a building material with extraordinary properties:</p>
+        <p>Our biochar-enhanced hempcrete represents a revolutionary leap forward in sustainable construction materials. By combining industrial hemp, lime, and our specialised VitaChar, we've created a building material with extraordinary properties:</p>
         <ul>
           <li>Carbon-negative footprint (sequestering more CO₂ than emitted in production)</li>
           <li>Superior thermal insulation (R-value 2.5× higher than conventional materials)</li>

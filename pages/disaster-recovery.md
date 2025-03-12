@@ -58,7 +58,7 @@ permalink: /solutions/disaster-recovery/
   <div class="tesla-pattern"></div>
   <div class="container">
     <div class="center-title">
-      <h2 class="section-title">Specialized Disaster Response Solutions</h2>
+      <h2 class="section-title">Specialised Disaster Response Solutions</h2>
     </div>
     
     <div class="feature-grid">
@@ -70,7 +70,7 @@ permalink: /solutions/disaster-recovery/
       <div class="feature-item">
         <i class="fas fa-water"></i>
         <h4>Flood Response</h4>
-        <p>Transform water-damaged timber, vegetation and organic debris into resources for soil stabilization and rebuilding efforts, reducing landfill impacts.</p>
+        <p>Transform water-damaged timber, vegetation and organic debris into resources for soil stabilisation and rebuilding efforts, reducing landfill impacts.</p>
       </div>
       <div class="feature-item">
         <i class="fas fa-wind"></i>
@@ -90,7 +90,7 @@ permalink: /solutions/disaster-recovery/
       <div class="feature-item">
         <i class="fas fa-seedling"></i>
         <h4>Ecosystem Restoration</h4>
-        <p>Produce specialized biochar formulations for land rehabilitation, erosion control, and accelerated ecosystem recovery in disaster-affected areas.</p>
+        <p>Produce specialised biochar formulations for land rehabilitation, erosion control, and accelerated ecosystem recovery in disaster-affected areas.</p>
       </div>
     </div>
   </div>
@@ -109,7 +109,7 @@ permalink: /solutions/disaster-recovery/
       </div>
       <div class="content-box">
         <h2>Mobile Disaster Response Units</h2>
-        <p>Our containerized pyrolysis technology is uniquely suited for disaster response scenarios:</p>
+        <p>Our containerised pyrolysis technology is uniquely suited for disaster response scenarios:</p>
         <ul>
           <li>Self-contained units deployable via standard transport to disaster zones within 24-48 hours</li>
           <li>Processing capacity of up to 5 tonnes per hour of mixed organic debris</li>
@@ -129,7 +129,7 @@ permalink: /solutions/disaster-recovery/
         <li>Reduced soil erosion by 40-60% on slopes and fire-affected areas</li>
         <li>Improved water infiltration by 30-50% in compacted and hydrophobic soils</li>
         <li>Enhanced revegetation success rates by 25-45% in challenging conditions</li>
-        <li>Immobilized heavy metals and certain contaminants by 50-90% in flood-affected soils</li>
+        <li>Immobilised heavy metals and certain contaminants by 50-90% in flood-affected soils</li>
         <li>Created carbon-negative outcomes from disaster materials that would otherwise release additional greenhouse gases</li>
       </ul>
       <p>Source: Journal of Environmental Restoration, 2023</p>
@@ -168,7 +168,7 @@ permalink: /solutions/disaster-recovery/
           <i class="fas fa-flask"></i>
         </div>
         <div>
-          <h3>Customized Formulation</h3>
+          <h3>Customised Formulation</h3>
           <p>Tailoring outputs for specific recovery needs</p>
         </div>
       </div>
@@ -213,13 +213,13 @@ permalink: /solutions/disaster-recovery/
         <h2>Solving the Treated Timber Challenge</h2>
         <p>One of the most significant challenges in disaster recovery is the safe management of treated timber from damaged structures. Our technology addresses this critical need:</p>
         <ul>
-          <li><strong>Safe Processing:</strong> Our high-temperature pyrolysis system (650°C+) can effectively immobilize up to 98% of copper, chromium, and arsenic from CCA-treated timber</li>
+          <li><strong>Safe Processing:</strong> Our high-temperature pyrolysis system (650°C+) can effectively immobilise up to 98% of copper, chromium, and arsenic from CCA-treated timber</li>
           <li><strong>Contaminant Destruction:</strong> The process destroys organic preservatives including creosote, pentachlorophenol, and ACQ</li>
           <li><strong>Leaching Prevention:</strong> The resulting material meets EPA leachability standards, converting a hazardous waste into a safe resource</li>
           <li><strong>Volume Reduction:</strong> Processing reduces material volume by 50-80%, dramatically improving logistics and transportation efficiency</li>
           <li><strong>Safe Applications:</strong> Processed materials can be safely used in construction materials, road base, and industrial applications for rebuilding</li>
         </ul>
-        <p>This capability fills a critical gap in disaster response where treated timber often represents one of the most challenging waste streams requiring specialized handling and disposal.</p>
+        <p>This capability fills a critical gap in disaster response where treated timber often represents one of the most challenging waste streams requiring specialised handling and disposal.</p>
       </div>
       <div>
         <img src="/api/placeholder/600/400" alt="Treated timber processing">
@@ -240,7 +240,7 @@ permalink: /solutions/disaster-recovery/
       <p>Based on pyrolysis technology capabilities and research data, a regional bushfire recovery program could potentially achieve:</p>
       <ul>
         <li>Processing of 20,000+ tonnes of burned timber and vegetation debris within 6 months</li>
-        <li>Production of approximately 5,000 tonnes of specialized biochar tailored for land restoration</li>
+        <li>Production of approximately 5,000 tonnes of specialised biochar tailored for land restoration</li>
         <li>Soil application supporting accelerated revegetation and erosion control on fire-affected landscapes</li>
         <li>Creation of biochar-enhanced building materials for reconstruction efforts</li>
         <li>Potential carbon credit generation representing approximately 18,000 tonnes of CO₂ equivalent</li>
@@ -283,7 +283,7 @@ permalink: /solutions/disaster-recovery/
   <div class="container">
     <div class="carbon-credit-content">
       <h2 class="section-title">Transform Disaster Response</h2>
-      <p>Our mobile pyrolysis technology can revolutionize disaster recovery efforts by converting debris into resources for rebuilding and environmental restoration, while creating valuable carbon removal outcomes.</p>
+      <p>Our mobile pyrolysis technology can revolutionise disaster recovery efforts by converting debris into resources for rebuilding and environmental restoration, while creating valuable carbon removal outcomes.</p>
       <a href="#contact-modal" class="btn" id="contact-btn-disaster">Request Disaster Response Information</a>
     </div>
   </div>

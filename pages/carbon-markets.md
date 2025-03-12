@@ -24,7 +24,7 @@ permalink: /solutions/carbon-markets/
     <div class="two-column">
       <div class="content-box">
         <h2>Moving Beyond Conventional Offsets</h2>
-        <p>The carbon market is evolving rapidly. Forward-thinking organizations are shifting from traditional offset approaches (emissions avoidance) toward carbon removal solutions that actually draw down atmospheric CO₂ and store it permanently.</p>
+        <p>The carbon market is evolving rapidly. Forward-thinking organisations are shifting from traditional offset approaches (emissions avoidance) toward carbon removal solutions that actually draw down atmospheric CO₂ and store it permanently.</p>
         <p>This shift is driven by increasing scrutiny of offset quality, corporate net-zero commitments requiring removal solutions, and the growing recognition that climate targets cannot be met without large-scale carbon removal.</p>
         <p>Biochar represents one of the few commercially available carbon removal approaches that offers both permanence and immediate scalability, with rigorous certification methodologies already established in voluntary carbon markets.</p>
       </div>
@@ -80,7 +80,7 @@ permalink: /solutions/carbon-markets/
       <div class="feature-item">
         <i class="fas fa-chart-line"></i>
         <h4>Scalability</h4>
-        <p>Modular, containerized systems can be rapidly deployed and scaled to meet growing corporate demand for high-integrity carbon removal solutions.</p>
+        <p>Modular, containerised systems can be rapidly deployed and scaled to meet growing corporate demand for high-integrity carbon removal solutions.</p>
       </div>
       <div class="feature-item">
         <i class="fas fa-award"></i>
@@ -219,7 +219,7 @@ permalink: /solutions/carbon-markets/
         <li>Engagement opportunities with suppliers, customers, and communities around visible sustainability initiatives</li>
         <li>Compelling sustainability storytelling combining climate action with tangible environmental benefits</li>
       </ul>
-      <p><em>Note: This represents a potential application framework based on our technology capabilities. Implementation would be customized to specific corporate circumstances and sustainability objectives.</em></p>
+      <p><em>Note: This represents a potential application framework based on our technology capabilities. Implementation would be customised to specific corporate circumstances and sustainability objectives.</em></p>
     </div>
     
     <div class="industry-grid">
@@ -246,7 +246,7 @@ permalink: /solutions/carbon-markets/
     </div>
     
     <p class="disclaimer" style="text-align: center; font-style: italic; margin-top: 36px;">
-      Note: These applications represent potential frameworks based on established carbon market methodologies. Specific implementations would be tailored to organizational needs and objectives.
+      Note: These applications represent potential frameworks based on established carbon market methodologies. Specific implementations would be tailored to organisational needs and objectives.
     </p>
   </div>
 </section>
@@ -282,7 +282,7 @@ permalink: /solutions/carbon-markets/
   <div class="container">
     <div class="carbon-credit-content">
       <h2 class="section-title">Create Premium Carbon Removal</h2>
-      <p>Explore how our biochar technology can support your organization's carbon removal strategy with high-integrity, permanent carbon credits and multiple environmental co-benefits.</p>
+      <p>Explore how our biochar technology can support your organisation's carbon removal strategy with high-integrity, permanent carbon credits and multiple environmental co-benefits.</p>
       <a href="#contact-modal" class="btn" id="contact-btn-carbon">Contact Our Carbon Markets Team</a>
     </div>
   </div>
