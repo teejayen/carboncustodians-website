@@ -1,7 +1,7 @@
 ---
 layout: default
 title: PFAS Remediation Solutions - Integrated Hemp & Biochar Approach
-permalink: /technologies/pfas-remediation/
+permalink: /solutions/pfas-remediation/
 ---
 
 # Comprehensive PFAS Remediation Technology
@@ -160,7 +160,7 @@ Our specialized high-temperature pyrolysis process has been extensively tested a
 <div class="industry-grid">
   <div class="industry-item">
     <img src="/assets/images/defense-sites.jpg" alt="Defense Site Remediation">
-    <h4>Defense Establishments</h4>
+    <h4>Defence Establishments</h4>
     <p>RAAF bases and training grounds with historical PFAS contamination from firefighting foam.</p>
   </div>
   <div class="industry-item">
@@ -183,17 +183,16 @@ Our specialized high-temperature pyrolysis process has been extensively tested a
 ## Case Study: Airport Fire Training Ground
 
 <div class="case-study">
-  <h3>Regional Airport PFAS Remediation</h3>
-  <p>A regional Australian airport implemented our integrated hemp-pyrolysis solution on a 3-hectare fire training area with 25+ years of AFFF use:</p>
+  <h3>Potential Application: Airport Fire Training Area</h3>
+  <p>Based on research and laboratory testing, our integrated hemp-pyrolysis solution could potentially address PFAS contamination at sites like regional airport fire training areas with historical AFFF use:</p>
   <ul>
-    <li>Initial soil PFOS/PFOA levels: 2.4-18.6 mg/kg</li>
-    <li>Two hemp growing cycles over 8 months extracted approximately 42% of total PFAS burden</li>
-    <li>Processing of 45 tonnes of hemp biomass through pyrolysis system</li>
-    <li>Production of 12 tonnes of PFAS-free biochar</li>
-    <li>Final soil PFOS/PFOA levels below 1.2 mg/kg across entire site</li>
-    <li>Generation of 44 tonnes CO₂-e in certified carbon removal credits</li>
-    <li>Total remediation cost 64% lower than traditional dig-and-dump approach</li>
+    <li>Hemp cultivation has demonstrated PFAS extraction capacity in research settings/li>
+    <li>Laboratory testing shows high-temperature pyrolysis can effectively destroy PFAS compounds</li>
+    <li>Theoretical modeling indicates potential for significant cost savings compared to dig-and-dump approaches</li>
+    <li>The biochar produced could potentially generate carbon removal credits if properly certified</li>
+    <li> This approach could offer a sustainable alternative to conventional PFAS remediation methods</li>
   </ul>
+  <p>Note: This represents a theoretical application based on research data and laboratory testing. Field-scale implementation is in development.</p>
 </div>
 
 ## Scientific References

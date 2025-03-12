@@ -141,7 +141,7 @@ Our containerized pyrolysis system offers waste management companies, councils, 
 
 ## Research-Backed Results
 
-Our approach is grounded in extensive scientific research:
+The following research provides the scientific foundation for our approach to waste transformation:
 
 1. Thompson, K.L., et al. (2023). "Pyrolysis of treated timber waste: Heavy metal immobilization and safe end-product development." *Journal of Hazardous Materials*, 442, 130789.
 
@@ -152,16 +152,17 @@ Our approach is grounded in extensive scientific research:
 4. Henderson, P., & Watson, R. (2023). "Mobile pyrolysis systems for distributed waste management: Case studies from Australia." *Journal of Cleaner Production*, 390, 136224.
 
 <div class="case-study">
-  <h3>Case Study: Regional Waste Authority</h3>
-  <p>A regional waste authority in Victoria implemented our system to process green waste and treated timber, achieving:</p>
+  <h3>Potential Scenario: Regional Waste Management</h3>
+  <p>Based on technical specifications and research data, a regional waste authority implementing our system could potentially achieve:</p>
   <ul>
-    <li>76% reduction in landfill inputs from these streams</li>
-    <li>Annual savings of $420,000 in landfill costs</li>
-    <li>Generation of 1,800 carbon credits annually</li>
-    <li>Processing of 12,000 tonnes of treated timber that previously had no recycling solution</li>
-    <li>Development of a local biochar market worth $280,000/year</li>
-    <li>Return on investment achieved in 2.3 years</li>
+    <li>Significant reduction in landfill inputs from green waste and timber streams</li>
+    <li>Substantial savings in landfill costs based on current tipping fees, and waste levies</li>
+    <li>Potential generation of carbon credits through verified carbon removal</li>
+    <li>Processing capability for treated timber that currently has limited recycling options</li>
+    <li>Opportunity to develop local markets for biochar products</li>
+    <li>Theoretical return on investment within 2-4 years depending on scale and local factors</li>
   </ul>
+  <p>Note: This represents a projected scenario based on system specifications and has not yet been implemented at full scale. Actual results may vary based on specific conditions and implementation details.</p>
 </div>
 
 ## Industry Applications
