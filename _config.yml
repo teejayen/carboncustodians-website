@@ -1,14 +1,20 @@
 title: Carbon Custodians
 email: legacy@carboncustodians.au
 description: Transforming Today's Waste into Tomorrow's Legacy
-baseurl: ""
-url: ""
+baseurl: ""  # Empty since you're serving from the root
+url: "https://carboncustodians.au"  # Primary domain
+
+# Add alternate domain information for SEO
+alternate_domains:
+  - https://carboncustodians.com.au
+  - https://carboncustodians.com
 
 # Build settings
 markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-redirect-from  # Add this plugin for handling multiple domains
 
 sass:
   sass_dir: _sass
@@ -18,8 +24,42 @@ collections:
   sections:
     output: false
 
+# Configure redirects plugin (requires jekyll-redirect-from gem)
+redirect_from:
+  enabled: true
+
+# Set default permalink structure
+permalink: pretty
+
+# Configure sitemap
+jekyll-sitemap:
+  filename: "/sitemap.xml"
+  exclude:
+    - "/atom.xml"
+    - "/feed.xml"
+    - "/feed/index.xml"
+
+# Configure compression
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: ["development"]
+  blanklines: false
+  profile: false
+  startings: [html, head, body]
+
+# Exclude files from processing
 exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
   - vendor
+  - .sass-cache/
+  - .jekyll-cache/
+  - .jekyll-metadata
+  - README.md
+  - LICENSE
+  - .git
+  - .github
