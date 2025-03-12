@@ -33,26 +33,7 @@ jobs:
           
       - name: Deploy to S3
         run: |
-          # First, upload all files with their detected mime types
           aws s3 sync _site/ s3://${{ secrets.S3_BUCKET }}/ --delete
-          
-          # Set correct mime type for common web files to ensure they're correct
-          find _site -name "*.html" -type f -exec aws s3 cp {} s3://${{ secrets.S3_BUCKET }}/{} --content-type "text/html" --metadata-directive REPLACE \;
-          find _site -name "*.css" -type f -exec aws s3 cp {} s3://${{ secrets.S3_BUCKET }}/{} --content-type "text/css" --metadata-directive REPLACE \;
-          find _site -name "*.js" -type f -exec aws s3 cp {} s3://${{ secrets.S3_BUCKET }}/{} --content-type "application/javascript" --metadata-directive REPLACE \;
-          find _site -name "*.json" -type f -exec aws s3 cp {} s3://${{ secrets.S3_BUCKET }}/{} --content-type "application/json" --metadata-directive REPLACE \;
-          find _site -name "*.xml" -type f -exec aws s3 cp {} s3://${{ secrets.S3_BUCKET }}/{} --content-type "application/xml" --metadata-directive REPLACE \;
-          
-          # Handle extensionless files - crucial for clean URLs
-          # Find all files without extensions and set them as text/html
-          find _site -type f -not -path "*/\.*" | grep -v "\." | xargs -I{} aws s3 cp {} s3://${{ secrets.S3_BUCKET }}/{} --content-type "text/html" --metadata-directive REPLACE
-          
-          # Handle files that should be text/html but don't match the above
-          for file in $(find _site -path "*/*" -type f -not -path "*/\.*" -not -name "*.html" -not -name "*.css" -not -name "*.js" -not -name "*.json" -not -name "*.xml" -not -name "*.jpg" -not -name "*.jpeg" -not -name "*.png" -not -name "*.gif" -not -name "*.svg" -not -name "*.ico" -not -name "*.ttf" -not -name "*.woff" -not -name "*.woff2" -not -name "*.eot"); do
-            if [[ $(file --mime-type -b "$file") == text/* ]]; then
-              aws s3 cp "$file" s3://${{ secrets.S3_BUCKET }}/"${file#_site/}" --content-type "text/html" --metadata-directive REPLACE
-            fi
-          done
       
       - name: Invalidate CloudFront cache
         run: |
