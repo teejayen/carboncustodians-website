@@ -1,0 +1,184 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: 'Carbon Custodians NDA Form Backend Resources'
+
+Parameters:
+  StageName:
+    Type: String
+    Default: prod
+    Description: API Gateway deployment stage name
+
+Resources:
+  # DynamoDB Table for storing NDA submissions
+  NDASubmissionsTable:
+    Type: 'AWS::DynamoDB::Table'
+    Properties:
+      TableName: carbon-custodians-nda-submissions
+      BillingMode: PAY_PER_REQUEST  # On-demand capacity for low-cost
+      AttributeDefinitions:
+        - AttributeName: id
+          AttributeType: S
+      KeySchema:
+        - AttributeName: id
+          KeyType: HASH
+      PointInTimeRecoverySpecification:
+        PointInTimeRecoveryEnabled: true
+
+  # Lambda execution role with necessary permissions
+  LambdaExecutionRole:
+    Type: 'AWS::IAM::Role'
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: lambda.amazonaws.com
+            Action: 'sts:AssumeRole'
+      ManagedPolicyArns:
+        - 'arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole'
+      Policies:
+        - PolicyName: DynamoDBAccess
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - Effect: Allow
+                Action:
+                  - 'dynamodb:PutItem'
+                  - 'dynamodb:GetItem'
+                  - 'dynamodb:Query'
+                Resource: !GetAtt NDASubmissionsTable.Arn
+
+  # Lambda function for processing form submissions
+  NDAFormProcessor:
+    Type: 'AWS::Lambda::Function'
+    Properties:
+      FunctionName: carbon-custodians-nda-processor
+      Handler: index.handler
+      Role: !GetAtt LambdaExecutionRole.Arn
+      Runtime: nodejs16.x
+      Timeout: 10
+      MemorySize: 256
+      Environment:
+        Variables:
+          DYNAMODB_TABLE: !Ref NDASubmissionsTable
+      Code:
+        ZipFile: |
+          // Placeholder - upload actual code from lambda-function.js
+          exports.handler = async (event) => {
+            return {
+              statusCode: 200,
+              body: JSON.stringify({ message: 'Placeholder function - replace with actual code' })
+            };
+          };
+
+  # API Gateway to expose Lambda function as REST API
+  NDAFormAPI:
+    Type: 'AWS::ApiGateway::RestApi'
+    Properties:
+      Name: carbon-custodians-nda-api
+      Description: API for Carbon Custodians NDA form submissions
+      EndpointConfiguration:
+        Types:
+          - REGIONAL
+
+  # API Gateway resource (URL path)
+  NDAFormResource:
+    Type: 'AWS::ApiGateway::Resource'
+    Properties:
+      RestApiId: !Ref NDAFormAPI
+      ParentId: !GetAtt NDAFormAPI.RootResourceId
+      PathPart: 'submit-nda'
+
+  # HTTP POST method for form submissions
+  NDAFormMethod:
+    Type: 'AWS::ApiGateway::Method'
+    Properties:
+      RestApiId: !Ref NDAFormAPI
+      ResourceId: !Ref NDAFormResource
+      HttpMethod: POST
+      AuthorizationType: NONE
+      Integration:
+        Type: AWS_PROXY
+        IntegrationHttpMethod: POST
+        Uri: !Sub 'arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${NDAFormProcessor.Arn}/invocations'
+      MethodResponses:
+        - StatusCode: '200'
+          ResponseModels:
+            application/json: 'Empty'
+          ResponseParameters:
+            method.response.header.Access-Control-Allow-Origin: true
+        - StatusCode: '400'
+          ResponseModels:
+            application/json: 'Empty'
+          ResponseParameters:
+            method.response.header.Access-Control-Allow-Origin: true
+        - StatusCode: '500'
+          ResponseModels:
+            application/json: 'Empty'
+          ResponseParameters:
+            method.response.header.Access-Control-Allow-Origin: true
+
+  # CORS support for API Gateway
+  NDAFormCORS:
+    Type: 'AWS::ApiGateway::Method'
+    Properties:
+      RestApiId: !Ref NDAFormAPI
+      ResourceId: !Ref NDAFormResource
+      HttpMethod: OPTIONS
+      AuthorizationType: NONE
+      Integration:
+        Type: MOCK
+        IntegrationResponses:
+          - StatusCode: 200
+            ResponseParameters:
+              method.response.header.Access-Control-Allow-Headers: "'Content-Type,X-Amz-Date,Authorization,X-Api-Key'"
+              method.response.header.Access-Control-Allow-Methods: "'OPTIONS,POST'"
+              method.response.header.Access-Control-Allow-Origin: "'*'"
+            ResponseTemplates:
+              application/json: '{}'
+        RequestTemplates:
+          application/json: '{"statusCode": 200}'
+      MethodResponses:
+        - StatusCode: 200
+          ResponseModels:
+            application/json: 'Empty'
+          ResponseParameters:
+            method.response.header.Access-Control-Allow-Headers: true
+            method.response.header.Access-Control-Allow-Methods: true
+            method.response.header.Access-Control-Allow-Origin: true
+
+  # API Gateway deployment
+  NDAFormAPIDeployment:
+    Type: 'AWS::ApiGateway::Deployment'
+    DependsOn:
+      - NDAFormMethod
+      - NDAFormCORS
+    Properties:
+      RestApiId: !Ref NDAFormAPI
+      Description: 'Initial deployment'
+
+  # API Gateway stage
+  NDAFormAPIStage:
+    Type: 'AWS::ApiGateway::Stage'
+    Properties:
+      RestApiId: !Ref NDAFormAPI
+      DeploymentId: !Ref NDAFormAPIDeployment
+      StageName: !Ref StageName
+
+  # Permission for API Gateway to invoke Lambda
+  LambdaPermission:
+    Type: 'AWS::Lambda::Permission'
+    Properties:
+      Action: 'lambda:InvokeFunction'
+      FunctionName: !Ref NDAFormProcessor
+      Principal: 'apigateway.amazonaws.com'
+      SourceArn: !Sub 'arn:aws:execute-api:${AWS::Region}:${AWS::AccountId}:${NDAFormAPI}/*/*/*'
+
+Outputs:
+  ApiEndpoint:
+    Description: 'API Gateway endpoint URL for the NDA form submission'
+    Value: !Sub 'https://${NDAFormAPI}.execute-api.${AWS::Region}.amazonaws.com/${StageName}/submit-nda'
+  
+  DynamoDBTable:
+    Description: 'DynamoDB table for NDA submissions'
+    Value: !Ref NDASubmissionsTable

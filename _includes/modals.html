@@ -52,13 +52,19 @@
     <div class="modal-content">
         <button class="close-modal" id="close-faq-modal"><i class="fas fa-times"></i></button>
         <h2>Frequently Asked Questions</h2>
-        <div style="margin-top: 18px;">
+        <div class="faq-container">
             {% for faq in site.data.faqs %}
             <div class="faq-item">
-                <h3 class="faq-question">{{ faq.question }}</h3>
-                <p class="faq-answer">{{ faq.answer }}</p>
+                <div class="faq-question">
+                    <h3>{{ faq.question }}</h3>
+                    <span class="faq-toggle"><i class="fas fa-chevron-down"></i></span>
+                </div>
+                <div class="faq-answer">
+                    <p>{{ faq.answer }}</p>
+                </div>
             </div>
             {% endfor %}
         </div>
     </div>
+</div>
 </div>

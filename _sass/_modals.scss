@@ -52,3 +52,80 @@
 .form-group label {
     display: block
 }
+
+/* FAQ Modal Styles */
+.faq-container {
+    max-height: 70vh;
+    overflow-y: auto;
+    padding-right: 10px;
+}
+
+.faq-item {
+    margin-bottom: 18px;
+    background: var(--carbon-gray);
+    border-radius: 9px;
+    overflow: hidden;
+}
+
+.faq-question {
+    padding: 18px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.faq-question:hover {
+    background-color: rgba(6, 150, 105, 0.1);
+}
+
+.faq-question h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    flex: 1;
+}
+
+.faq-toggle {
+    margin-left: 18px;
+    color: var(--emerald-primary);
+    transition: transform 0.3s ease;
+}
+
+.faq-toggle.active i {
+    transform: rotate(180deg);
+}
+
+.faq-answer {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+}
+
+.faq-answer.active {
+    padding: 0 18px 18px;
+    max-height: 500px; /* Adjust based on expected content length */
+}
+
+.faq-answer p {
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* Modal adjustments for FAQs */
+#faq-modal .modal-content {
+    max-width: 800px;
+    width: 90%;
+}
+
+@media (max-width: 768px) {
+    .faq-question h3 {
+        font-size: 16px;
+    }
+    
+    .faq-answer p {
+        font-size: 14px;
+    }
+}
