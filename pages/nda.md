@@ -16,30 +16,29 @@ permalink: /nda/
     <div id="nda-form-container">
       <form id="nda-form" class="nda-form">
         <div class="form-group">
-          <label for="fullName">Full Legal Name *</label>
+          <label for="fullName">Full Legal Name</label>
           <input type="text" id="fullName" name="fullName" required>
         </div>
         <div class="form-group">
-          <label for="email">Email Address *</label>
+          <label for="email">Email Address</label>
           <input type="email" id="email" name="email" required>
         </div>
         <div class="form-group">
-          <label for="company">Organization/Company *</label>
+          <label for="company">Organisation/Company</label>
           <input type="text" id="company" name="company" required>
         </div>
         <div class="form-group">
-          <label for="position">Position/Title *</label>
+          <label for="position">Position/Title</label>
           <input type="text" id="position" name="position" required>
         </div>
         <div class="form-group">
-          <label for="phoneNumber">Phone Number *</label>
+          <label for="phoneNumber">Phone Number</label>
           <input type="tel" id="phoneNumber" name="phoneNumber" required>
         </div>
         
-        <div class="nda-content">
-          <h3>Non-Disclosure Agreement</h3>
+        <div class="nda-content">          <h3>Non-Disclosure Agreement</h3>
           
-          <p>This Non-Disclosure Agreement (the "Agreement") is entered into between Carbon Custodians Pty Ltd ("Company") and the individual identified above ("Recipient").</p>
+          <p>This Non-Disclosure Agreement (the "Agreement") is entered into between Carbon Custodians ("Company") and the individual identified above ("Recipient"), effective as of the date of electronic signature below.</p>
           
           <h4>1. Definition of Confidential Information</h4>
           <p>For purposes of this Agreement, "Confidential Information" means any information disclosed by the Company to Recipient, either directly or indirectly, in writing, orally or by inspection of tangible objects, including without limitation: the Company's pyrolysis technology, engineering specifications, design techniques, production processes, research and development information, business strategies, financial information, marketing plans, customer and supplier information, and other technical and business information which is either marked as "confidential" or would reasonably be understood to be confidential given the nature of the information and the circumstances of disclosure.</p>
@@ -48,17 +47,27 @@ permalink: /nda/
           <p>Recipient agrees:</p>
           <p>(a) to hold the Confidential Information in strict confidence;</p>
           <p>(b) not to disclose such Confidential Information to any third parties;</p>
-          <p>(c) not to use any Confidential Information for any purpose except to evaluate and engage in discussions concerning potential business relationships with the Company; and</p>
-          <p>(d) to take reasonable precautions to prevent unauthorized disclosure of such Confidential Information, including, without limitation, using at least the same degree of care that Recipient uses to protect its own confidential information.</p>
+          <p>(c) not to use any Confidential Information for any purpose except to evaluate and engage in discussions concerning potential business relationships with the Company;</p>
+          <p>(d) to take reasonable precautions to prevent unauthorised disclosure of such Confidential Information, including, without limitation, using at least the same degree of care that Recipient uses to protect its own confidential information; and</p>
+          <p>(e) not to copy, reproduce, reverse engineer, or attempt to derive the composition or underlying information of any Confidential Information.</p>
           
-          <h4>3. Term</h4>
-          <p>The obligations of Recipient under this Agreement shall survive until such time as all Confidential Information disclosed hereunder becomes publicly known and made generally available through no action or inaction of Recipient.</p>
+          <h4>3. Term and Termination</h4>
+          <p>The obligations of Recipient under this Agreement shall survive indefinitely until such time as all Confidential Information disclosed hereunder becomes publicly known and made generally available through no action or inaction of Recipient.</p>
           
-          <h4>4. Governing Law</h4>
-          <p>This Agreement shall be governed by and construed in accordance with the laws of Queensland, Australia, without reference to conflict of laws principles.</p>
+          <h4>4. Return of Materials</h4>
+          <p>Upon the Company's request, Recipient shall promptly return to the Company all documents and other tangible materials representing the Company's Confidential Information and all copies thereof.</p>
           
-          <h4>5. Statutory Declaration</h4>
-          <p>I solemnly and sincerely declare that I understand and agree to abide by the terms of this confidentiality agreement, and I acknowledge that this declaration is true and correct, and I make it with the understanding and belief that a person who makes a false declaration is liable to the penalties of perjury.</p>
+          <h4>5. No Rights Granted</h4>
+          <p>Nothing in this Agreement shall be construed as granting any rights under any patent, copyright, or other intellectual property right of the Company, nor shall this Agreement grant Recipient any rights in or to the Company's Confidential Information other than the limited right to review such Confidential Information solely for the purpose of determining whether to enter into a business relationship with the Company.</p>
+          
+          <h4>6. Remedies</h4>
+          <p>Recipient acknowledges that monetary damages may not be a sufficient remedy for unauthorised disclosure of Confidential Information and that Company shall be entitled, without waiving any other rights or remedies, to seek such injunctive or equitable relief as may be deemed proper by a court of competent jurisdiction.</p>
+          
+          <h4>7. Electronic Signature</h4>
+          <p>By submitting this form with my electronic signature, I acknowledge that I have read and understand this Agreement, and I agree to be bound by its terms and conditions. I understand that my electronic signature has the same legal effect as a handwritten signature.</p>
+          
+          <h4>8. Governing Law and Jurisdiction</h4>
+          <p>This Agreement shall be governed by and construed in accordance with the laws of Queensland, Australia, without reference to conflict of laws principles. Any disputes arising under or in connection with this Agreement shall be subject to the exclusive jurisdiction of the courts of Queensland, Australia.</p>
         </div>
         
         <div class="form-group">
