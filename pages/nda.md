@@ -49,7 +49,7 @@ permalink: /nda/
           <p>(a) to hold the Confidential Information in strict confidence;</p>
           <p>(b) not to disclose such Confidential Information to any third parties;</p>
           <p>(c) not to use any Confidential Information for any purpose except to evaluate and engage in discussions concerning potential business relationships with the Company; and</p>
-          <p>(d) to take reasonable precautions to prevent unauthorised disclosure of such Confidential Information, including, without limitation, using at least the same degree of care that Recipient uses to protect its own confidential information.</p>
+          <p>(d) to take reasonable precautions to prevent unauthorized disclosure of such Confidential Information, including, without limitation, using at least the same degree of care that Recipient uses to protect its own confidential information.</p>
           
           <h4>3. Term</h4>
           <p>The obligations of Recipient under this Agreement shall survive until such time as all Confidential Information disclosed hereunder becomes publicly known and made generally available through no action or inaction of Recipient.</p>
@@ -362,6 +362,12 @@ document.addEventListener('DOMContentLoaded', function() {
         successContainer.style.display = 'block';
         verificationCode.textContent = code;
         confirmationMessage.textContent = `Thank you, ${formDataObj.fullName}. Your confidentiality agreement has been recorded.`;
+        
+        // Scroll to the top of the page for better UX, especially on mobile
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
       } else {
         const errorData = await response.json();
         throw new Error(errorData.message || 'Failed to submit form');
