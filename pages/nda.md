@@ -138,7 +138,7 @@ permalink: /nda/
   padding: 27px;
   border-radius: 9px;
   margin-bottom: 27px;
-  max-height: 300px;
+  max-height: 500px;
   overflow-y: auto;
 }
 
